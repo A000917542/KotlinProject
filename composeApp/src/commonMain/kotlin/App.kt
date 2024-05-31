@@ -41,7 +41,7 @@ fun App() {
 @Preview
 fun CardButton () {
     Column (horizontalAlignment = Alignment.CenterHorizontally) {
-        Image(painterResource(Res.drawable.compose_multiplatform), null, modifier = Modifier.size(140.dp))
+        Image(painterResource(Res.drawable.compose_multiplatform), null, modifier = Modifier.size(150.dp))
         Text("Example Text")
     }
 }
